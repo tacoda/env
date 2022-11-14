@@ -35,3 +35,8 @@ curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | 
 # Install VimPlug
 sh -c 'curl -fLo $HOME/.config/nvim/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+# Install devenv
+nix profile install github:cachix/cachix/latest --extra-experimental-features nix-command --extra-experimental-features flakes
+nix profile install github:cachix/devenv/v0.2 --extra-experimental-features nix-command --extra-experimental-features flakes
+
