@@ -38,7 +38,7 @@ Tools bundled in this environment include:
 Here are some common commands to use with this setup.
 
 | Command | Description |
-|===|===|
+| --- | --- |
 | `,` | Create a throw-away environment to try a tool |
 | `ll` | Detailed list of files in directory |
 | `la` | Detailed list of all files in directory |
